@@ -1,0 +1,8 @@
+elk: &elk
+  xxx: 111
+
+services:
+  nginx_nginx:
+    name: nginx
+    interval: 60s
+    <<: *elk
